@@ -10,3 +10,5 @@ with col2:
     
 st.date_input("Transaction Date")
 st.radio("Your department:",["Software Engineer","NPI","Test Engineer","Quality Engineer"])
+
+st.camera_input("Show me your face!")
