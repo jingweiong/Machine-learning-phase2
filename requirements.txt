@@ -1,3 +1,5 @@
 streamlit
-opencv-python
-sklearn
+cv2
+numpy
+joblib
+time
