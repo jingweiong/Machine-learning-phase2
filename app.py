@@ -37,8 +37,6 @@ if uploaded_file != None:
     
     st.image(image, caption="Succesfully Uploaded Image!")
     processed_image = preprocess_image(img_array)
-    with st.spinner("Processing..."):
-        time.sleep(3)
     features = extract_features(processed_image)
     
     prediction = model.predict(features)[0]
